@@ -88,65 +88,65 @@ const Calculator = () => {
 //what is being returned
   return (
     <div className='grid grid-cols-4 gap-4 justify-items-center items-center mt-5 p-7 bg-gradient-to-r from-pink-200 to-blue-200 max-w-lg mx-auto rounded-lg'>
-      <div className='col-span-4 output bg-gray-300 text-white p-4'>
+      <div className='col-span-4 output bg-gray-300 text-black p-4'>
         <div className='previous'>{previousOperand} {operation}</div>
         <div className='current'>{currentOperand}</div>
       </div>
       
-      <button className='col-span-2 bg-gray-100 text-white p-1 rounded-lg hover:bg-gray-600' onClick={() => buttonClick('Clear')}>
+      <button className='col-span-2 bg-gray-100 text-black p-1 rounded-lg hover:bg-gray-600' onClick={() => buttonClick('Clear')}>
         Clear
       </button>
-      <button className='col-span-2 border border-gray-300 bg-gray-100 p-1 rounded-lg text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('Delete')}>
+      <button className='col-span-2 border border-gray-300 bg-gray-100 p-1 rounded-lg text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('Delete')}>
         Delete
       </button>
       
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('1')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('1')}>
         1
       </button>
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('2')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('2')}>
         2
       </button>
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('3')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('3')}>
         3
       </button>
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('4')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('4')}>
         4
       </button>
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('5')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('5')}>
         5
       </button>
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('6')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('6')}>
         6
       </button>
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('7')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('7')}>
         7
       </button>
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('8')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('8')}>
         8
       </button>
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('9')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('9')}>
         9
       </button>
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('0')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('0')}>
         0
       </button>
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('*')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('*')}>
         *
       </button>
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('/')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('/')}>
         /
       </button>
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('+')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('+')}>
         +
       </button>
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('.')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('.')}>
         .
       </button>
       
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600' onClick={() => buttonClick('-')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600' onClick={() => buttonClick('-')}>
         -
       </button>
-      <button className='border border-gray-300 p-4 text-xl text-white hover:bg-gray-600 col-span-2 col-start-2' onClick={() => buttonClick('=')}>
+      <button className='border border-gray-300 p-4 text-xl text-black hover:bg-gray-600 col-span-2 col-start-2' onClick={() => buttonClick('=')}>
         =
       </button>
     </div>
